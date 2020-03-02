@@ -41,6 +41,11 @@ else()
     mainwindow.ui
     Lista.hpp
     Nodo.hpp
+    Arista.hpp
+    NodoG.hpp
+    NodoG.cpp
+    grafo.cpp
+    grafo.hpp
   )
 endif()
 
