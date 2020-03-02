@@ -9,7 +9,7 @@ NodoG::NodoG(string _dato){
     inDegree =0;
     outDegree = 0;
     promedio = 0;
-    aristas = new Lista<Arista<NodoG>>;
+    //aristas = new Lista<Arista<NodoG>>;
 }
 void NodoG::aumentarIn(){
     inDegree++;

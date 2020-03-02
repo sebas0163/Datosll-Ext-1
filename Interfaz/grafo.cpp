@@ -52,7 +52,7 @@ bool Grafo::verificar(string _dato){  // ver si funcion funciona
     }
     return estado;
 }
-void Grafo::addArista(string ini,string fin,int _peso){
+/*void Grafo::addArista(string ini,string fin,int _peso){
     if(verificarArista(ini,fin)){
         distribuirA(ini,fin,_peso);
     }else{
@@ -91,3 +91,4 @@ void Grafo::distribuirA(string ini, string fin,int _peso){
     Arista<NodoG>* temp = buscarArista(ini,fin);
     temp -> addPeso(_peso);
 }
+*/

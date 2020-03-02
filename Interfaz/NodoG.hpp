@@ -2,7 +2,7 @@
 #define NODOG_HPP
 #include <string>
 #include "Lista.hpp"
-#include "Arista.hpp"
+//#include "Arista.hpp"
 
 using namespace std;
 
@@ -13,7 +13,7 @@ class NodoG
         int outDegree;
         int promedio;
         string dato;
-        Lista<Arista<NodoG>*>* aristas;
+        //Lista<Arista<NodoG>*>* aristas;
         NodoG(string);
         void aumentarIn();
         void aumentarOut();
