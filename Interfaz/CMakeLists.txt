@@ -39,6 +39,8 @@ else()
     mainwindow.cpp
     mainwindow.hpp
     mainwindow.ui
+    Lista.hpp
+    Nodo.hpp
   )
 endif()
 
