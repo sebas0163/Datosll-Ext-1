@@ -28,7 +28,7 @@ int main()
     g1.insertarArista('4','6',2);
     g1.insertarArista('5','4',3);
     g1.insertarArista('5','6',2);
-    cout<<g1.dijkstra('3','5')<<endl;
+    //cout<<g1.dijkstra('2','5')<<endl;
         // Create a socket
         int listening = socket(AF_INET, SOCK_STREAM, 0);
         if (listening == -1)
@@ -95,8 +95,10 @@ int main()
             }
 
             cout << string(buf, 0, bytesReceived) << endl;
-            string result= g1.dijkstra(buf[0],buf[1]);
-            //cout<<result<<endl;
+            cout<<buf[0]<<endl;
+            cout<<buf[1]<<endl;
+            string result = g1.dijkstra(buf[0],buf[1]);
+            cout<<result<<endl;
 
             // Echo message back to client
             send(clientSocket, result.c_str(),result.size()+1, 0);
