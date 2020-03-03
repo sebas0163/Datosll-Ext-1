@@ -20,7 +20,7 @@ template<typename T>class Lista
             }else{
                 Nodo<T> *temp = head;
                 while(temp->next != nullptr){
-                    temp = head ->next;
+                    temp = temp ->next;
                 }
                 temp->next = new Nodo<T>(dato);
             }

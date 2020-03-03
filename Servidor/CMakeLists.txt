@@ -17,11 +17,8 @@ add_executable(Servidor
   main.cpp
   Lista.hpp
   Nodo.hpp
-  NodoG.cpp
-  NodoG.hpp
-  Arista.hpp
-  Arista.cpp
-  grafo.cpp
+
   grafo.hpp
+
 )
 target_link_libraries(Servidor Qt5::Core)

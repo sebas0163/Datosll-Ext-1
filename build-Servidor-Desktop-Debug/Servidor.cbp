@@ -106,25 +106,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/Servidor/Arista.cpp">
-			<Option target="Servidor"/>
-		</Unit>
-		<Unit filename="/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/Servidor/Arista.hpp">
-			<Option target="Servidor"/>
-		</Unit>
 		<Unit filename="/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/Servidor/Lista.hpp">
 			<Option target="Servidor"/>
 		</Unit>
 		<Unit filename="/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/Servidor/Nodo.hpp">
-			<Option target="Servidor"/>
-		</Unit>
-		<Unit filename="/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/Servidor/NodoG.cpp">
-			<Option target="Servidor"/>
-		</Unit>
-		<Unit filename="/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/Servidor/NodoG.hpp">
-			<Option target="Servidor"/>
-		</Unit>
-		<Unit filename="/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/Servidor/grafo.cpp">
 			<Option target="Servidor"/>
 		</Unit>
 		<Unit filename="/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/Servidor/grafo.hpp">
