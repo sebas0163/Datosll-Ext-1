@@ -4,11 +4,12 @@
 #include <iostream>
 
 using namespace std;
-template<typename T>class Arista
+class NodoG;
+class Arista
 {
     public:
-        T* startNode;
-        T* endNode;
+        NodoG* startNode;
+        NodoG* endNode;
         int peso;
         Arista(NodoG* ini,NodoG* fin, int _peso){
             startNode= ini;

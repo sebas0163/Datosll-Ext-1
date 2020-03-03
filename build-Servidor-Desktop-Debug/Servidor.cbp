@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Servidor"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\lib64\;CMake Files\..\..\..\..\..\..\usr\lib64\cmake\;CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Core\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/build-Servidor-Desktop-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sebastian/Escritorio/Datos\ 2/Datosll-Ext-1/build-Servidor-Desktop-Debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sebastian/Escritorio/Datos\ 2/Datosll-Ext-1/build-Servidor-Desktop-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sebastian/Escritorio/Datos\ 2/Datosll-Ext-1/build-Servidor-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sebastian/Escritorio/Datos\ 2/Datosll-Ext-1/build-Servidor-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/build-Servidor-Desktop-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sebastian/Escritorio/Datos\ 2/Datosll-Ext-1/build-Servidor-Desktop-Debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sebastian/Escritorio/Datos\ 2/Datosll-Ext-1/build-Servidor-Desktop-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sebastian/Escritorio/Datos\ 2/Datosll-Ext-1/build-Servidor-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sebastian/Escritorio/Datos\ 2/Datosll-Ext-1/build-Servidor-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Servidor">
+				<Option output="/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/build-Servidor-Desktop-Debug/Servidor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/build-Servidor-Desktop-Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/build-Servidor-Desktop-Debug"/>
+					<Add directory="/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/Servidor"/>
+					<Add directory="/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/build-Servidor-Desktop-Debug/Servidor_autogen/include"/>
+					<Add directory="/usr/include/qt"/>
+					<Add directory="/usr/include/qt/QtCore"/>
+					<Add directory="/usr/lib/qt/mkspecs/linux-g++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/../../../../include/c++/9.2.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/../../../../include/c++/9.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/../../../../include/c++/9.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sebastian/Escritorio/Datos\ 2/Datosll-Ext-1/build-Servidor-Desktop-Debug/Makefile&quot;  VERBOSE=1 Servidor"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sebastian/Escritorio/Datos\ 2/Datosll-Ext-1/build-Servidor-Desktop-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sebastian/Escritorio/Datos\ 2/Datosll-Ext-1/build-Servidor-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sebastian/Escritorio/Datos\ 2/Datosll-Ext-1/build-Servidor-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Servidor/fast">
+				<Option output="/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/build-Servidor-Desktop-Debug/Servidor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/build-Servidor-Desktop-Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/build-Servidor-Desktop-Debug"/>
+					<Add directory="/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/Servidor"/>
+					<Add directory="/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/build-Servidor-Desktop-Debug/Servidor_autogen/include"/>
+					<Add directory="/usr/include/qt"/>
+					<Add directory="/usr/include/qt/QtCore"/>
+					<Add directory="/usr/lib/qt/mkspecs/linux-g++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/../../../../include/c++/9.2.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/../../../../include/c++/9.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/../../../../include/c++/9.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sebastian/Escritorio/Datos\ 2/Datosll-Ext-1/build-Servidor-Desktop-Debug/Makefile&quot;  VERBOSE=1 Servidor/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sebastian/Escritorio/Datos\ 2/Datosll-Ext-1/build-Servidor-Desktop-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sebastian/Escritorio/Datos\ 2/Datosll-Ext-1/build-Servidor-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sebastian/Escritorio/Datos\ 2/Datosll-Ext-1/build-Servidor-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/build-Servidor-Desktop-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sebastian/Escritorio/Datos\ 2/Datosll-Ext-1/build-Servidor-Desktop-Debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sebastian/Escritorio/Datos\ 2/Datosll-Ext-1/build-Servidor-Desktop-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sebastian/Escritorio/Datos\ 2/Datosll-Ext-1/build-Servidor-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sebastian/Escritorio/Datos\ 2/Datosll-Ext-1/build-Servidor-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Servidor_autogen">
+				<Option working_dir="/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/build-Servidor-Desktop-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sebastian/Escritorio/Datos\ 2/Datosll-Ext-1/build-Servidor-Desktop-Debug/Makefile&quot;  VERBOSE=1 Servidor_autogen"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sebastian/Escritorio/Datos\ 2/Datosll-Ext-1/build-Servidor-Desktop-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sebastian/Escritorio/Datos\ 2/Datosll-Ext-1/build-Servidor-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sebastian/Escritorio/Datos\ 2/Datosll-Ext-1/build-Servidor-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/Servidor/Arista.cpp">
+			<Option target="Servidor"/>
+		</Unit>
+		<Unit filename="/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/Servidor/Arista.hpp">
+			<Option target="Servidor"/>
+		</Unit>
+		<Unit filename="/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/Servidor/Lista.hpp">
+			<Option target="Servidor"/>
+		</Unit>
+		<Unit filename="/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/Servidor/Nodo.hpp">
+			<Option target="Servidor"/>
+		</Unit>
+		<Unit filename="/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/Servidor/NodoG.cpp">
+			<Option target="Servidor"/>
+		</Unit>
+		<Unit filename="/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/Servidor/NodoG.hpp">
+			<Option target="Servidor"/>
+		</Unit>
+		<Unit filename="/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/Servidor/grafo.cpp">
+			<Option target="Servidor"/>
+		</Unit>
+		<Unit filename="/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/Servidor/grafo.hpp">
+			<Option target="Servidor"/>
+		</Unit>
+		<Unit filename="/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/Servidor/main.cpp">
+			<Option target="Servidor"/>
+		</Unit>
+		<Unit filename="/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/build-Servidor-Desktop-Debug/Servidor_autogen/mocs_compilation.cpp">
+			<Option target="Servidor"/>
+		</Unit>
+		<Unit filename="/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/Servidor/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/Servidor/../../../../../../usr/lib64/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/Servidor/../../../../../../usr/lib64/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/Servidor/../../../../../../usr/lib64/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/Servidor/../../../../../../usr/lib64/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/Servidor/../../../../../../usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Core\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

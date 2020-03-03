@@ -14,9 +14,9 @@
 			}
 		]
 	},
-	"id" : "Interfaz_autogen::@6890427a1f51a3e7e1df",
+	"id" : "Servidor_autogen::@6890427a1f51a3e7e1df",
 	"isGeneratorProvided" : true,
-	"name" : "Interfaz_autogen",
+	"name" : "Servidor_autogen",
 	"paths" : 
 	{
 		"build" : ".",
@@ -44,13 +44,13 @@
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/build-Interfaz-Desktop-Debug/CMakeFiles/Interfaz_autogen",
+			"path" : "/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/build-Servidor-Desktop-Debug/CMakeFiles/Servidor_autogen",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/build-Interfaz-Desktop-Debug/CMakeFiles/Interfaz_autogen.rule",
+			"path" : "/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/build-Servidor-Desktop-Debug/CMakeFiles/Servidor_autogen.rule",
 			"sourceGroupIndex" : 1
 		}
 	],

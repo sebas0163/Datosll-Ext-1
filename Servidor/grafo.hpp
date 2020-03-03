@@ -8,7 +8,7 @@ class Grafo
 {
 public:
     Lista<NodoG*>* nodos;
-    Lista<Arista<NodoG>*>* aristas;
+    Lista<Arista*>* aristas;
     int cantNodos;
     int cantAristas;
     void addVertice(string);
@@ -18,7 +18,7 @@ public:
     void eliminarNodo(string);
     void eliminarArista(string,string);
     void addArista(string,string,int);
-    Arista<NodoG>* buscarArista(string,string);
+    Arista* buscarArista(string,string);
     NodoG* buscarNodo(string);
     Grafo();
 private:

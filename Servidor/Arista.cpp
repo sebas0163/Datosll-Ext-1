@@ -1,4 +1,4 @@
-#include "Arista.hpp"
+/*#include "Arista.hpp"
 #include "NodoG.hpp"
 #include <iostream>
 
@@ -11,4 +11,4 @@ Arista::Arista(NodoG* ini,NodoG* fin, int _peso){
 }
 void Arista::addPeso(int i){
     peso = peso + i;
-}
+}*/

@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "Interfaz",
+					"name" : "Servidor",
 					"targetIndexes" : 
 					[
 						0,
@@ -39,16 +39,16 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "Interfaz::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Interfaz-Debug-625705f183d932d7242a.json",
-					"name" : "Interfaz",
+					"id" : "Servidor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Servidor-Debug-75a9d5ff3bf1c2669368.json",
+					"name" : "Servidor",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "Interfaz_autogen::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Interfaz_autogen-Debug-385f15554f27472fe832.json",
-					"name" : "Interfaz_autogen",
+					"id" : "Servidor_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Servidor_autogen-Debug-7dfeec15f591da927b16.json",
+					"name" : "Servidor_autogen",
 					"projectIndex" : 0
 				}
 			]
@@ -57,8 +57,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/build-Interfaz-Desktop-Debug",
-		"source" : "/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/Interfaz"
+		"build" : "/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/build-Servidor-Desktop-Debug",
+		"source" : "/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/Servidor"
 	},
 	"version" : 
 	{

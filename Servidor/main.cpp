@@ -1,4 +1,3 @@
-#include "mainwindow.hpp"
 #include <iostream>
 #include <sys/types.h>
 #include <unistd.h>
@@ -7,11 +6,30 @@
 #include <arpa/inet.h>
 #include <string.h>
 #include <string>
-#include <QApplication>
+#include "grafo.hpp"
 
 using namespace  std;
-int main(int argc, char *argv[])
+int main()
 {
+    Grafo g1 = Grafo();
+    g1.addVertice("1");
+    g1.addVertice("2");
+    g1.addVertice("3");
+    g1.addVertice("4");
+    g1.addVertice("5");
+    g1.addVertice("6");
+    g1.addArista("1","2",2);
+    g1.addArista("1","3",4);
+    g1.addArista("2","3",1);
+    g1.addArista("2","5",2);
+    g1.addArista("2","4",4);
+    g1.addArista("3","5",3);
+    g1.addArista("4","6",2);
+    g1.addArista("5","4",3);
+    g1.addArista("5","6",2);
+
+
+    /*
     // Create a socket
         int listening = socket(AF_INET, SOCK_STREAM, 0);
         if (listening == -1)
@@ -84,12 +102,9 @@ int main(int argc, char *argv[])
         }
 
         // Close the socket
-        close(clientSocket);
+        close(clientSocket);*/
 
         return 0;
-    //QApplication a(argc, argv);
-    //MainWindow w;
-    //w.show();
-    //return a.exec();
+
 
 }

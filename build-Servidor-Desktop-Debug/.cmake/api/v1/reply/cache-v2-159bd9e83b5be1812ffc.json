@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/build-Interfaz-Desktop-Debug"
+			"value" : "/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/build-Servidor-Desktop-Debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -539,7 +539,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/Interfaz"
+			"value" : "/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/Servidor"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -795,7 +795,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "Interfaz"
+			"value" : "Servidor"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1078,30 +1078,6 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "Interfaz_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/build-Interfaz-Desktop-Debug"
-		},
-		{
-			"name" : "Interfaz_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/Interfaz"
-		},
-		{
 			"name" : "ProcessorCount_cmd_nproc",
 			"properties" : 
 			[
@@ -1158,40 +1134,28 @@
 			"value" : "/usr/lib64/cmake/Qt5Core"
 		},
 		{
-			"name" : "Qt5Gui_DIR",
+			"name" : "Servidor_BINARY_DIR",
 			"properties" : 
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for Qt5Gui."
+					"value" : "Value Computed by CMake"
 				}
 			],
-			"type" : "PATH",
-			"value" : "/usr/lib64/cmake/Qt5Gui"
+			"type" : "STATIC",
+			"value" : "/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/build-Servidor-Desktop-Debug"
 		},
 		{
-			"name" : "Qt5Widgets_DIR",
+			"name" : "Servidor_SOURCE_DIR",
 			"properties" : 
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for Qt5Widgets."
+					"value" : "Value Computed by CMake"
 				}
 			],
-			"type" : "PATH",
-			"value" : "/usr/lib64/cmake/Qt5Widgets"
-		},
-		{
-			"name" : "Qt5_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for Qt5."
-				}
-			],
-			"type" : "PATH",
-			"value" : "/usr/lib64/cmake/Qt5"
+			"type" : "STATIC",
+			"value" : "/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/Servidor"
 		}
 	],
 	"kind" : "cache",

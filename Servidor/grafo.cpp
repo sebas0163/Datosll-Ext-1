@@ -9,7 +9,7 @@ using namespace std;
 Grafo::Grafo()
 {
     nodos = new Lista<NodoG*>();
-    aristas = new Lista<Arista<NodoG>*>();
+    aristas = new Lista<Arista*>();
     cantAristas =0;
     cantNodos =0;
 }
@@ -52,11 +52,11 @@ bool Grafo::verificar(string _dato){  // ver si funcion funciona
     }
     return estado;
 }
-/*void Grafo::addArista(string ini,string fin,int _peso){
+void Grafo::addArista(string ini,string fin,int _peso){
     if(verificarArista(ini,fin)){
         distribuirA(ini,fin,_peso);
     }else{
-        Arista<NodoG>* n_Arista = new Arista<NodoG>(buscarNodo(ini),buscarNodo(fin),_peso);
+        Arista* n_Arista = new Arista(buscarNodo(ini),buscarNodo(fin),_peso);
         NodoG* temp = buscarNodo(ini);
         temp->aristas->add(n_Arista);
         aristas ->add(n_Arista);
@@ -66,8 +66,8 @@ bool Grafo::verificar(string _dato){  // ver si funcion funciona
 bool Grafo::verificarArista(string ini,string fin){
     bool estado = false;
     for(int i = 0; i<aristas->largo ; i++){
-        Nodo<Arista<NodoG>*> temp = aristas ->buscar(i);
-        Arista<NodoG>* temp2 =  static_cast<Arista<NodoG>*>(temp.dato);
+        Nodo<Arista*> temp = aristas ->buscar(i);
+        Arista* temp2 =  static_cast<Arista*>(temp.dato);
         if(temp2->startNode->dato == ini && temp2->endNode->dato == fin){
             estado = true;
             return estado;
@@ -76,10 +76,10 @@ bool Grafo::verificarArista(string ini,string fin){
     }
     return estado;
 }
-Arista<NodoG>* Grafo::buscarArista(string ini, string fin){
+Arista* Grafo::buscarArista(string ini, string fin){
     for(int i = 0; i<aristas->largo; i++){
-        Nodo<Arista<NodoG>*> temp = aristas ->buscar(i);
-        Arista<NodoG>* temp2 =  static_cast<Arista<NodoG>*>(temp.dato);
+        Nodo<Arista*> temp = aristas ->buscar(i);
+        Arista* temp2 =  static_cast<Arista*>(temp.dato);
         if(temp2->startNode->dato == ini && temp2->endNode->dato == fin){
             return temp2;
             break;
@@ -88,7 +88,7 @@ Arista<NodoG>* Grafo::buscarArista(string ini, string fin){
     return 0;
 }
 void Grafo::distribuirA(string ini, string fin,int _peso){
-    Arista<NodoG>* temp = buscarArista(ini,fin);
+    Arista* temp = buscarArista(ini,fin);
     temp -> addPeso(_peso);
 }
-*/
+
