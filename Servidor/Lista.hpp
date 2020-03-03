@@ -1,18 +1,34 @@
+/**
+  @file Lista.hpp
+  @author Sebastian Moaya
+  @title Lista
+  @date 25/02/20
+  @version 1.0
+  */
 #ifndef LISTA_HPP
 #define LISTA_HPP
 #include "Nodo.hpp"
 #include<iostream>
-
+/**
+ * @brief clase encargada de guradar los datos y manejar las funciones de una lista
+ */
 using namespace std;
 template<typename T>class Lista
 {
     public:
         Nodo<T> *head;
         int largo;
+        /**
+         * @brief Lista constructor
+         */
         Lista(){
             head = nullptr;
             largo = 0;
         }
+        /**
+         * @brief add annade un dato a la lista
+         * @param dato nodo que se desea annadir
+         */
         void add(T dato){
             if(head == nullptr){
                 Nodo<T>* n_Nodo = new Nodo<T>(dato);
@@ -26,6 +42,9 @@ template<typename T>class Lista
             }
             largo ++;
         }
+        /**
+         * @brief print metodo que muestra en consola todos los elementos de la lista
+         */
         void print(){
             if(head != nullptr){
                 Nodo<T> *temp = head;
@@ -38,6 +57,11 @@ template<typename T>class Lista
             }
 
         }
+        /**
+         * @brief modificarNodo metodo que cambia el valor de un nodo
+         * @param pos posicion del nodo al que se desea editar
+         * @param dato nuevo dato
+         */
         void modificarNodo(int pos, T dato){
             Nodo<T> *temp = head;
             for(int i = 0; i<pos; i++ ){
@@ -46,6 +70,11 @@ template<typename T>class Lista
             temp->dato = dato;
 
         }
+        /**
+         * @brief verificar compureba si un dato se encuentra en la lista
+         * @param valor dato a verificar
+         * @return valor booleano
+         */
         bool verificar(T valor){
             Nodo<T> *temp = head;
             bool estado = false;
@@ -59,6 +88,11 @@ template<typename T>class Lista
             }
             return estado;
         }
+        /**
+         * @brief getPos obtiene la posicion de un nodo en particular
+         * @param dato valor del nodo
+         * @return posicion
+         */
         int getPos(T dato){
             if(verificar(dato)){
                 int pos = 0;
@@ -73,6 +107,11 @@ template<typename T>class Lista
             }
             return 0;
         }
+        /**
+         * @brief buscar busca un nodo en un posicion x
+         * @param pos posicion cualquiera
+         * @return nodo
+         */
         Nodo<T> buscar(int pos){
             if(pos > largo -1){
                 //return nullptr;
@@ -80,6 +119,9 @@ template<typename T>class Lista
                 return buscar_Aux(pos);
             }
         }
+        /**
+         * @brief reset elimina todos los datos de la lista.
+         */
         void reset(){
             Nodo<T> *temp = head;
             for(int i =0; i<largo; i++){
@@ -89,6 +131,10 @@ template<typename T>class Lista
             }
             largo =0;
         }
+        /**
+         * @brief eliminar elimina un nodo de la lista
+         * @param pos posicion del nodo
+         */
         void eliminar(int pos){
             if(pos > largo){
                 cout<<"no exite la posicion"<< endl;

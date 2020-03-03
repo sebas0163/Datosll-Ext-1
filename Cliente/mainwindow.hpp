@@ -15,6 +15,7 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
+    // Definicion el socket del cliente
     Socket s = Socket();
 
 private slots:

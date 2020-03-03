@@ -1,3 +1,11 @@
+/**
+  @file grafo.hpp
+  @title grafo
+  @author GGLsoftware
+  @version 1.2
+  @brief creacion del grafo y del algoritmo de dijkstra, modificado y adaptado por Sebastian Moya
+  @date 27/02/20
+  */
 #ifndef GRAFO_HPP
 #define GRAFO_HPP
 #include <stdio.h>
@@ -8,7 +16,9 @@
 #define Liste struct pila
 
 using namespace std;
-
+/**
+ * @brief The nodo struct crea el nodo del grafo
+ */
 Node{
     char dato;
     Node* siguiente;
@@ -17,23 +27,34 @@ Node{
     int monto;
     char anterior;
 };
-
+/**
+ * @brief The arista struct crea la arista del grafo, que une dos nodos
+ */
 Arista{
     Node*vrt;
     Arista*siguiente;
     int peso;
 };
-
+/**
+ * @brief The pila struct permite usar la lista para una pila y una cola
+ */
 Liste{
     Node* dato;
     Liste*siguiente;
 };
+/**
+ * @brief The Grafo class clase encargada de guardar los datos del grafo y manejar el algoritmo de Dijsktra
+ */
 class Grafo
 {
 public:
     Node*inicio=NULL;
     Liste*ini=NULL;
     Liste*final=NULL;
+    /**
+     * @brief insertarNodo metodo que inserta un nodo al grafo
+     * @param _dato dato que se desea agregar al grafo
+     */
     void insertarNodo(char _dato){
         Node* aux;
         Node* nuevo= new Node();
@@ -54,7 +75,12 @@ public:
           }
 
      }
-
+    /**
+     * @brief insertarArista metodo que crea una arista
+     * @param ini vertice de donde sale
+     * @param final vertice al cual llega
+     * @param peso peso de la arista
+     */
     void insertarArista(char ini,char final, int peso){
         Arista* nuevo= new arista;
         nuevo->siguiente=NULL;
@@ -87,7 +113,12 @@ public:
         if(aux==NULL)
             printf("Error:Vertice no encontrado\n");
     }
-
+    /**
+     * @brief agregarArista metodo que incluye la arista al grafo
+     * @param aux nodo de inicio
+     * @param aux2 nodo del fin
+     * @param nuevo nueva arista
+     */
     void agregarArista(Node* aux,Node* aux2,Arista* nuevo){
         Arista* a;
         if(aux->adyacencia==NULL){
@@ -101,6 +132,10 @@ public:
             a->siguiente=nuevo;
         }
     }
+    /**
+     * @brief insertarPila agrega un nodo a la pila
+     * @param aux nuevo nodo
+     */
     void insertarPila(Node* aux){
         Liste*nuevo= new Liste();
         nuevo->dato=aux;
@@ -113,7 +148,10 @@ public:
            ini=nuevo;
         }
     }
-
+    /**
+     * @brief insertarCola agrega un nodo a la cola
+     * @param aux nuevo nodo
+     */
     void insertarCola(Node*aux){
         Liste*nuevo=new Liste();
         nuevo->dato=aux;
@@ -126,7 +164,10 @@ public:
             final=nuevo;
         }
     }
-
+    /**
+     * @brief desencolar saca al nodo correspondiente de la cola
+     * @return nodo
+     */
     Node*desencolar(){
         Liste*aux;
         if(ini==NULL){
@@ -142,7 +183,9 @@ public:
         free(aux);
         return resultado;
     }
-
+    /**
+     * @brief reiniciar reincia la cola
+     */
     void reiniciar(){
         if(inicio!=NULL){
             Node*aux=inicio;
@@ -152,6 +195,12 @@ public:
             }
         }
     }
+    /**
+     * @brief dijkstra algoritmo encargado de determinar la ruta mas corta dados dos nodos
+     * @param a nodo de donde parte
+     * @param b nodo a donde llega
+     * @return ruta
+     */
     string dijkstra(char a, char b){
         Node*aux=inicio;
         fflush(stdin);

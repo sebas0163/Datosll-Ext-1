@@ -1,8 +1,18 @@
+/**
+  @file mainwindow.cpp
+  @author Sebastian Moya
+  @version 1.0
+  @date 27/02/20
+  @brief definicion de las funciones que controlan la interfaz
+  */
 #include "mainwindow.hpp"
 #include "./ui_mainwindow.h"
 #include <iostream>
 using namespace std;
-
+/**
+ * @brief MainWindow::MainWindow constructor de la interfaz
+ * @param parent padre
+ */
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
@@ -10,13 +20,17 @@ MainWindow::MainWindow(QWidget *parent)
     ui->setupUi(this);
 }
 
-
+/**
+ * @brief MainWindow::~MainWindow destructor de la interfaz
+ */
 MainWindow::~MainWindow()
 {
     delete ui;
 }
 
-
+/**
+ * @brief MainWindow::on_boton_clicked funcion que envia al socket los datos escritos en la interfaz
+ */
 void MainWindow::on_boton_clicked()
 {
     string llegada;
