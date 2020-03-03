@@ -10,6 +10,7 @@ MainWindow::MainWindow(QWidget *parent)
     ui->setupUi(this);
 }
 
+
 MainWindow::~MainWindow()
 {
     delete ui;
@@ -24,6 +25,8 @@ void MainWindow::on_boton_clicked()
     QString temp2 = ui->llegada->text();
     salida = temp1.toStdString();
     llegada = temp2.toStdString();
-    cout<<salida<<endl;
-    cout<<llegada<<endl;
+    string enviar = salida+llegada;
+    string result = s.transmitir(enviar);
+    ui->resultado->setText(result.c_str());
+
 }

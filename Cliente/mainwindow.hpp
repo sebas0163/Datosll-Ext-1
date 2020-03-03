@@ -1,5 +1,6 @@
 #ifndef MAINWINDOW_HPP
 #define MAINWINDOW_HPP
+#include "socket.hpp"
 
 #include <QMainWindow>
 
@@ -14,6 +15,7 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
+    Socket s = Socket();
 
 private slots:
     void on_boton_clicked();

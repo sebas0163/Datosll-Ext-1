@@ -33,6 +33,7 @@ public:
     QLineEdit *llegada;
     QLabel *resultado;
     QPushButton *boton;
+    QLabel *label_6;
     QStatusBar *statusbar;
 
     void setupUi(QMainWindow *MainWindow)
@@ -80,7 +81,7 @@ public:
         llegada->setGeometry(QRect(370, 440, 113, 32));
         resultado = new QLabel(centralwidget);
         resultado->setObjectName(QString::fromUtf8("resultado"));
-        resultado->setGeometry(QRect(30, 510, 731, 71));
+        resultado->setGeometry(QRect(10, 510, 731, 71));
         QFont font2;
         font2.setFamily(QString::fromUtf8("Mukti Narrow [fbf ]"));
         font2.setPointSize(16);
@@ -90,6 +91,10 @@ public:
         boton = new QPushButton(centralwidget);
         boton->setObjectName(QString::fromUtf8("boton"));
         boton->setGeometry(QRect(530, 440, 121, 34));
+        label_6 = new QLabel(centralwidget);
+        label_6->setObjectName(QString::fromUtf8("label_6"));
+        label_6->setGeometry(QRect(0, 490, 271, 18));
+        label_6->setFont(font1);
         MainWindow->setCentralWidget(centralwidget);
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName(QString::fromUtf8("statusbar"));
@@ -110,6 +115,7 @@ public:
         label_5->setText(QCoreApplication::translate("MainWindow", "Llegada", nullptr));
         resultado->setText(QString());
         boton->setText(QCoreApplication::translate("MainWindow", "Calcular", nullptr));
+        label_6->setText(QCoreApplication::translate("MainWindow", "El camino menos costoso es:", nullptr));
     } // retranslateUi
 
 };
