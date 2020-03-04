@@ -21,4 +21,6 @@ add_executable(Servidor
   grafo.hpp
 
 )
+find_package(Doxygen REQUIRED)
+doxygen_add_docs(docs . ALL)
 target_link_libraries(Servidor Qt5::Core)

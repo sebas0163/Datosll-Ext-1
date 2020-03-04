@@ -44,5 +44,7 @@ else()
     socket.hpp
   )
 endif()
+find_package(Doxygen REQUIRED)
+doxygen_add_docs(docs . ALL)
 
 target_link_libraries(Cliente PRIVATE Qt5::Widgets)

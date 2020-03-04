@@ -1,0 +1,4 @@
+var searchData=
+[
+  ['transmitir_24',['transmitir',['../classSocket.html#a75492ccf8343973c89024f500a6ba2f3',1,'Socket']]]
+];

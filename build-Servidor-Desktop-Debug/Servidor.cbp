@@ -5,7 +5,7 @@
 		<Option title="Servidor"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\lib64\;CMake Files\..\..\..\..\..\..\usr\lib64\cmake\;CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Core\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\lib64\;CMake Files\..\..\..\..\..\..\usr\lib64\cmake\;CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Core\;CMake Files\..\build-Servidor-Desktop-Debug\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/build-Servidor-Desktop-Debug"/>
@@ -22,6 +22,16 @@
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j4 -f &quot;/home/sebastian/Escritorio/Datos\ 2/Datosll-Ext-1/build-Servidor-Desktop-Debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sebastian/Escritorio/Datos\ 2/Datosll-Ext-1/build-Servidor-Desktop-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sebastian/Escritorio/Datos\ 2/Datosll-Ext-1/build-Servidor-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sebastian/Escritorio/Datos\ 2/Datosll-Ext-1/build-Servidor-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/build-Servidor-Desktop-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sebastian/Escritorio/Datos\ 2/Datosll-Ext-1/build-Servidor-Desktop-Debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sebastian/Escritorio/Datos\ 2/Datosll-Ext-1/build-Servidor-Desktop-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/sebastian/Escritorio/Datos\ 2/Datosll-Ext-1/build-Servidor-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sebastian/Escritorio/Datos\ 2/Datosll-Ext-1/build-Servidor-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -85,11 +95,11 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sebastian/Escritorio/Datos\ 2/Datosll-Ext-1/build-Servidor-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
+			<Target title="docs">
 				<Option working_dir="/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/build-Servidor-Desktop-Debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/sebastian/Escritorio/Datos\ 2/Datosll-Ext-1/build-Servidor-Desktop-Debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sebastian/Escritorio/Datos\ 2/Datosll-Ext-1/build-Servidor-Desktop-Debug/Makefile&quot;  VERBOSE=1 docs"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sebastian/Escritorio/Datos\ 2/Datosll-Ext-1/build-Servidor-Desktop-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/sebastian/Escritorio/Datos\ 2/Datosll-Ext-1/build-Servidor-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sebastian/Escritorio/Datos\ 2/Datosll-Ext-1/build-Servidor-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -138,6 +148,12 @@
 		</Unit>
 		<Unit filename="/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/Servidor/../../../../../../usr/lib64/cmake/Qt5Core/Qt5CoreMacros.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/Servidor/../build-Servidor-Desktop-Debug/CMakeDoxyfile.in">
+			<Option virtualFolder="CMake Files\..\build-Servidor-Desktop-Debug\"/>
+		</Unit>
+		<Unit filename="/home/sebastian/Escritorio/Datos 2/Datosll-Ext-1/Servidor/../build-Servidor-Desktop-Debug/CMakeDoxygenDefaults.cmake">
+			<Option virtualFolder="CMake Files\..\build-Servidor-Desktop-Debug\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
