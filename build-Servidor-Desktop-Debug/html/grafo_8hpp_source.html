@@ -214,7 +214,7 @@ $(function() {
 <div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;    }</div>
 <div class="line"><a name="l00204"></a><span class="lineno"><a class="line" href="classGrafo.html#af7a0f3a534a675df9dcd7dee2586752c">  204</a></span>&#160;    <span class="keywordtype">string</span> <a class="code" href="classGrafo.html#af7a0f3a534a675df9dcd7dee2586752c">dijkstra</a>(<span class="keywordtype">char</span> a, <span class="keywordtype">char</span> b){</div>
 <div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;        <a class="code" href="grafo_8hpp.html#aed91756449328e2c454e53e9c5e53936">Node</a>*aux=inicio;</div>
-<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;        fflush(stdin);</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;        <span class="comment">//fflush(stdin);</span></div>
 <div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;        <span class="keywordflow">while</span>(aux!=NULL){</div>
 <div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;            <span class="keywordflow">if</span>(aux-&gt;dato==a){</div>
 <div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;                aux-&gt;terminado=1;</div>
@@ -259,7 +259,7 @@ $(function() {
 <div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;            }</div>
 <div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;        }</div>
 <div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;        insertarPila(aux);</div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;        <span class="keywordtype">string</span> camino;</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;        <span class="keywordtype">string</span> camino = <span class="stringliteral">&quot;&quot;</span>;</div>
 <div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;        <span class="keywordflow">while</span>(ini!=NULL){</div>
 <div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;            camino =camino+ <span class="stringliteral">&quot;   &quot;</span> + desencolar()-&gt;dato;</div>
 <div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;        }</div>

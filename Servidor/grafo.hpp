@@ -203,7 +203,7 @@ public:
      */
     string dijkstra(char a, char b){
         Node*aux=inicio;
-        fflush(stdin);
+        //fflush(stdin);
         while(aux!=NULL){
             if(aux->dato==a){
                 aux->terminado=1;
@@ -248,7 +248,7 @@ public:
             }
         }
         insertarPila(aux);
-        string camino;
+        string camino = "";
         while(ini!=NULL){
             camino =camino+ "   " + desencolar()->dato;
         }

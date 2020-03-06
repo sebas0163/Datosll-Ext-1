@@ -108,7 +108,8 @@ int main()
             cout << string(buf, 0, bytesReceived) << endl;
             cout<<buf[0]<<endl;
             cout<<buf[1]<<endl;
-            string result = g1.dijkstra(buf[0],buf[1]);
+            string result= "";
+            result = g1.dijkstra(buf[0],buf[1]);
             cout<<result<<endl;
 
             // envia el dijkstra
